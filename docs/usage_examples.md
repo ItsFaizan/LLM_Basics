@@ -16,6 +16,19 @@ Tokens: [UNK] | hello | world | [UNK]
 Token IDs: [100, 7592, 2088, 100]
 Stats: 4 tokens, avg length 5.0
 
+Input text:
+🌟 Hello world 🌟!
+
+Model: gpt2
+Tokens: ðŁ | Į | Ł | ĠHello | Ġworld | ĠðŁ | Į | Ł | Ġ!
+Token IDs: [8582, 234, 253, 18435, 995, 12520, 234, 253, 5145]
+Stats: 9 tokens, avg length 2.5555555555555554
+
+Model: bert-base-uncased
+Tokens: [UNK] | hello | world | [UNK] | !
+Token IDs: [100, 7592, 2088, 100, 999]
+Stats: 5 tokens, avg length 4.2
+
 
 ### Notes
 - Emojis like `🌟` are not always in the GPT-2 vocabulary as single tokens.  
